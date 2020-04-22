@@ -16,7 +16,7 @@
             "think\\": "src"
         },
         "files": [
-          "src/helper.php"
+            "src/helper.php"
         ]
     }
 }

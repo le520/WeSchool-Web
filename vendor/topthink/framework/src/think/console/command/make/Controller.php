@@ -30,7 +30,7 @@ class Controller extends Make
 
     protected function getStub(): string
     {
-        $stubPath = __DIR__ . DIRECTORY_SEPARATOR . DIRECTORY_SEPARATOR;
+        $stubPath = __DIR__ . DIRECTORY_SEPARATOR . 'stubs' . DIRECTORY_SEPARATOR;
 
         if ($this->input->getOption('api')) {
             return $stubPath . 'controller.api.stub';

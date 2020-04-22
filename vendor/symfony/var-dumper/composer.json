@@ -36,16 +36,14 @@
         "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
     },
     "autoload": {
-        "files": [
-          "Resources/functions/dump.php"
-        ],
+        "files": [ "Resources/functions/dump.php" ],
         "psr-4": { "Symfony\\Component\\VarDumper\\": "" },
         "exclude-from-classmap": [
             "/Tests/"
         ]
     },
     "bin": [
-      "Resources/bin/var-dump-server"
+        "Resources/bin/var-dump-server"
     ],
     "minimum-stability": "dev",
     "extra": {

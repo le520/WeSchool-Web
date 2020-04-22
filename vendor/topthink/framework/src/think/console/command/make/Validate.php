@@ -26,7 +26,7 @@ class Validate extends Make
 
     protected function getStub(): string
     {
-        $stubPath = __DIR__ . DIRECTORY_SEPARATOR . DIRECTORY_SEPARATOR;
+        $stubPath = __DIR__ . DIRECTORY_SEPARATOR . 'stubs' . DIRECTORY_SEPARATOR;
 
         return $stubPath . 'validate.stub';
     }

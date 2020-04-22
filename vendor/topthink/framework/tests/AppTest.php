@@ -114,7 +114,7 @@ class AppTest extends TestCase
 
         $this->assertEquals($rootPath, $app->getRootPath());
 
-        $this->assertEquals(dirname(__DIR__) . DIRECTORY_SEPARATOR . DIRECTORY_SEPARATOR, $app->getThinkPath());
+        $this->assertEquals(dirname(__DIR__) . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR, $app->getThinkPath());
 
         $this->assertEquals($rootPath . 'app' . DIRECTORY_SEPARATOR, $app->getAppPath());
 
